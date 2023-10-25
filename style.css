@@ -1,0 +1,30 @@
+
+        body 
+        {
+            font-family: Arial, sans-serif;
+        }
+        .calculator 
+        {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(124, 123, 122, 0.9);
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+        }
+        input[type="button"] {
+            width: 48px;
+            height: 48px;
+            font-size: 18px;
+            margin: 5px;
+        }
+        #result {
+            font-size: 24px;
+            margin: 10px 0;
+        }
